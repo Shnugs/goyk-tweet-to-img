@@ -1,31 +1,31 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "16.x"
-  },
+  "name": "goyk-tweet-to-img",
+  "version": "1.0.0",
+  "description": "Creates images from tweets",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.15.2"
+    "canvas": "^2.6.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.15.2",
+    "puppeteer": "^5.2.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "got": "^11.3.0",
     "tape": "^4.7.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Shnugs/goyk-tweet-to-img"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shnugs/goyk-tweet-to-img"
+  },
   "license": "MIT"
 }
